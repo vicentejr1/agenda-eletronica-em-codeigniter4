@@ -1,0 +1,467 @@
+CRITICAL - 2026-05-10 01:13:28 --> CodeIgniter\Database\Exceptions\DataException: There is no data to insert.
+[Method: GET, Route: atividades/cadastrar]
+in SYSTEMPATH\BaseModel.php on line 1876.
+ 1 SYSTEMPATH\BaseModel.php(1876): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\BaseModel.php(865): CodeIgniter\BaseModel->transformDataToArray([], 'insert')
+ 3 SYSTEMPATH\Model.php(668): CodeIgniter\BaseModel->insert([], true)
+ 4 APPPATH\Controllers\Atividades.php(33): CodeIgniter\Model->insert([])
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Atividades->getCadastrar()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Atividades))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-05-10 01:58:03 --> ParseError: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+[Method: GET, Route: atividades/listar]
+in APPPATH\Views\atividades\listar.php on line 132.
+ 1 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('atividades/listar', [], true)
+ 3 APPPATH\Controllers\Atividades.php(23): view('atividades/listar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Atividades->getListar()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Atividades))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-05-10 01:58:10 --> ParseError: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+[Method: GET, Route: atividades/listar]
+in APPPATH\Views\atividades\listar.php on line 132.
+ 1 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('atividades/listar', [], true)
+ 3 APPPATH\Controllers\Atividades.php(23): view('atividades/listar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Atividades->getListar()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Atividades))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-05-10 02:33:26 --> ParseError: Unclosed '{' on line 38 does not match ')'
+[Method: GET, Route: atividades/listar]
+in APPPATH\Controllers\Atividades.php on line 42.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\web.local\\app\\Controllers\\Atividades.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Atividades')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Atividades')
+ 4 SYSTEMPATH\Router\AutoRouterImproved.php(174): class_exists('\\App\\Controllers\\Atividades')
+ 5 SYSTEMPATH\Router\AutoRouterImproved.php(282): CodeIgniter\Router\AutoRouterImproved->searchFirstController()
+ 6 SYSTEMPATH\Router\Router.php(594): CodeIgniter\Router\AutoRouterImproved->getRoute('atividades/listar', 'get')
+ 7 SYSTEMPATH\Router\Router.php(245): CodeIgniter\Router\Router->autoRoute('atividades/listar')
+ 8 SYSTEMPATH\CodeIgniter.php(829): CodeIgniter\Router\Router->handle('atividades/listar')
+ 9 SYSTEMPATH\CodeIgniter.php(441): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-05-10 02:33:40 --> ParseError: Unclosed '{' on line 38 does not match ')'
+[Method: GET, Route: atividades/listar]
+in APPPATH\Controllers\Atividades.php on line 42.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\web.local\\app\\Controllers\\Atividades.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Atividades')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Atividades')
+ 4 SYSTEMPATH\Router\AutoRouterImproved.php(174): class_exists('\\App\\Controllers\\Atividades')
+ 5 SYSTEMPATH\Router\AutoRouterImproved.php(282): CodeIgniter\Router\AutoRouterImproved->searchFirstController()
+ 6 SYSTEMPATH\Router\Router.php(594): CodeIgniter\Router\AutoRouterImproved->getRoute('atividades/listar', 'get')
+ 7 SYSTEMPATH\Router\Router.php(245): CodeIgniter\Router\Router->autoRoute('atividades/listar')
+ 8 SYSTEMPATH\CodeIgniter.php(829): CodeIgniter\Router\Router->handle('atividades/listar')
+ 9 SYSTEMPATH\CodeIgniter.php(441): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-05-10 03:22:45 --> ErrorException: Undefined array key "AtividadeId"
+[Method: POST, Route: atividades/alterar]
+in APPPATH\Controllers\Atividades.php on line 44.
+ 1 APPPATH\Controllers\Atividades.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "AtividadeId"', 'C:\\xampp\\htdocs\\web.local\\app\\Controllers\\Atividades.php', 44)
+ 2 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Atividades->postAlterar()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Atividades))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-05-10 17:29:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-10 17:36:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-10 17:36:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-10 17:37:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-10 17:37:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-10 17:53:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-10 17:53:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-10 17:54:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-10 17:56:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-10 17:56:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-10 17:56:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-10 17:56:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-10 17:57:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-10 17:57:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-10 17:58:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-10 18:01:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-10 18:01:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-10 18:01:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-10 18:01:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-10 18:28:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-10 18:28:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-05-10 18:55:16 --> Can't create table `sistema_web`.`atividades` (errno: 150 "Foreign key constraint is incorrectly formed")
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('CREATE TABLE `atividades` (
+	`LoginId` INT(11) UNSIGNED NOT NULL,
+	`AtividadeId` INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
+	`Nome` VARCHAR(128) NOT NULL,
+	`Descricao` VARCHAR(255) NOT NULL,
+	`DataInicio` DATETIME NULL,
+	`DataFim` DATETIME NULL,
+	`Status` ENUM(\'pendente\',\'concluido\',\'cancelado\') NOT NULL DEFAULT \'pendente\',
+	CONSTRAINT `pk_atividades` PRIMARY KEY(`AtividadeId`),
+	CONSTRAINT `atividades_LoginId_foreign` FOREIGN KEY (`LoginId`) REFERENCES `login`(`LoginId`) ON DELETE CASCADE ON UPDATE CASCADE
+) DEFAULT CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(910): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `atividades` (
+	`LoginId` INT(11) UNSIGNED NOT NULL,
+	`AtividadeId` INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
+	`Nome` VARCHAR(128) NOT NULL,
+	`Descricao` VARCHAR(255) NOT NULL,
+	`DataInicio` DATETIME NULL,
+	`DataFim` DATETIME NULL,
+	`Status` ENUM(\'pendente\',\'concluido\',\'cancelado\') NOT NULL DEFAULT \'pendente\',
+	CONSTRAINT `pk_atividades` PRIMARY KEY(`AtividadeId`),
+	CONSTRAINT `atividades_LoginId_foreign` FOREIGN KEY (`LoginId`) REFERENCES `login`(`LoginId`) ON DELETE CASCADE ON UPDATE CASCADE
+) DEFAULT CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci')
+ 3 SYSTEMPATH\Database\BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `atividades` (
+	`LoginId` INT(11) UNSIGNED NOT NULL,
+	`AtividadeId` INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
+	`Nome` VARCHAR(128) NOT NULL,
+	`Descricao` VARCHAR(255) NOT NULL,
+	`DataInicio` DATETIME NULL,
+	`DataFim` DATETIME NULL,
+	`Status` ENUM(\'pendente\',\'concluido\',\'cancelado\') NOT NULL DEFAULT \'pendente\',
+	CONSTRAINT `pk_atividades` PRIMARY KEY(`AtividadeId`),
+	CONSTRAINT `atividades_LoginId_foreign` FOREIGN KEY (`LoginId`) REFERENCES `login`(`LoginId`) ON DELETE CASCADE ON UPDATE CASCADE
+) DEFAULT CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci')
+ 4 SYSTEMPATH\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `atividades` (
+	`LoginId` INT(11) UNSIGNED NOT NULL,
+	`AtividadeId` INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
+	`Nome` VARCHAR(128) NOT NULL,
+	`Descricao` VARCHAR(255) NOT NULL,
+	`DataInicio` DATETIME NULL,
+	`DataFim` DATETIME NULL,
+	`Status` ENUM(\'pendente\',\'concluido\',\'cancelado\') NOT NULL DEFAULT \'pendente\',
+	CONSTRAINT `pk_atividades` PRIMARY KEY(`AtividadeId`),
+	CONSTRAINT `atividades_LoginId_foreign` FOREIGN KEY (`LoginId`) REFERENCES `login`(`LoginId`) ON DELETE CASCADE ON UPDATE CASCADE
+) DEFAULT CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci')
+ 5 APPPATH\Database\Migrations\2026-05-09-002957_Atividades.php(54): CodeIgniter\Database\Forge->createTable('atividades')
+ 6 SYSTEMPATH\Database\MigrationRunner.php(1014): App\Database\Migrations\Atividades->up()
+ 7 SYSTEMPATH\Database\MigrationRunner.php(202): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+ 8 SYSTEMPATH\Commands\Database\Migrate.php(89): CodeIgniter\Database\MigrationRunner->latest(null)
+ 9 SYSTEMPATH\CLI\SignalTrait.php(245): CodeIgniter\Commands\Database\Migrate::CodeIgniter\Commands\Database\{closure}()
+10 SYSTEMPATH\Commands\Database\Migrate.php(88): CodeIgniter\Commands\Database\Migrate->withSignalsBlocked(Object(Closure))
+11 SYSTEMPATH\CLI\Commands.php(74): CodeIgniter\Commands\Database\Migrate->run([...])
+12 SYSTEMPATH\CLI\BaseCommand.php(119): CodeIgniter\CLI\Commands->run('migrate', [...])
+13 SYSTEMPATH\Commands\Database\MigrateRefresh.php(91): CodeIgniter\CLI\BaseCommand->call('migrate', [...])
+14 SYSTEMPATH\CLI\SignalTrait.php(245): CodeIgniter\Commands\Database\MigrateRefresh->CodeIgniter\Commands\Database\{closure}()
+15 SYSTEMPATH\Commands\Database\MigrateRefresh.php(89): CodeIgniter\Commands\Database\MigrateRefresh->withSignalsBlocked(Object(Closure))
+16 SYSTEMPATH\CLI\Commands.php(74): CodeIgniter\Commands\Database\MigrateRefresh->run([...])
+17 SYSTEMPATH\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('migrate:refresh', [])
+18 SYSTEMPATH\Boot.php(442): CodeIgniter\CLI\Console->run()
+19 SYSTEMPATH\Boot.php(166): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+20 ROOTPATH\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+ERROR - 2026-05-10 18:59:47 --> Can't create table `sistema_web`.`atividades` (errno: 150 "Foreign key constraint is incorrectly formed")
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('CREATE TABLE `atividades` (
+	`LoginId` INT(11) UNSIGNED NOT NULL,
+	`AtividadeId` INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
+	`Nome` VARCHAR(128) NOT NULL,
+	`Descricao` VARCHAR(255) NOT NULL,
+	`DataInicio` DATETIME NULL,
+	`DataFim` DATETIME NULL,
+	`Status` ENUM(\'pendente\',\'concluido\',\'cancelado\') NOT NULL DEFAULT \'pendente\',
+	CONSTRAINT `pk_atividades` PRIMARY KEY(`AtividadeId`),
+	CONSTRAINT `atividades_LoginId_foreign` FOREIGN KEY (`LoginId`) REFERENCES `login`(`LoginId`) ON DELETE CASCADE ON UPDATE CASCADE
+) DEFAULT CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(910): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `atividades` (
+	`LoginId` INT(11) UNSIGNED NOT NULL,
+	`AtividadeId` INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
+	`Nome` VARCHAR(128) NOT NULL,
+	`Descricao` VARCHAR(255) NOT NULL,
+	`DataInicio` DATETIME NULL,
+	`DataFim` DATETIME NULL,
+	`Status` ENUM(\'pendente\',\'concluido\',\'cancelado\') NOT NULL DEFAULT \'pendente\',
+	CONSTRAINT `pk_atividades` PRIMARY KEY(`AtividadeId`),
+	CONSTRAINT `atividades_LoginId_foreign` FOREIGN KEY (`LoginId`) REFERENCES `login`(`LoginId`) ON DELETE CASCADE ON UPDATE CASCADE
+) DEFAULT CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci')
+ 3 SYSTEMPATH\Database\BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `atividades` (
+	`LoginId` INT(11) UNSIGNED NOT NULL,
+	`AtividadeId` INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
+	`Nome` VARCHAR(128) NOT NULL,
+	`Descricao` VARCHAR(255) NOT NULL,
+	`DataInicio` DATETIME NULL,
+	`DataFim` DATETIME NULL,
+	`Status` ENUM(\'pendente\',\'concluido\',\'cancelado\') NOT NULL DEFAULT \'pendente\',
+	CONSTRAINT `pk_atividades` PRIMARY KEY(`AtividadeId`),
+	CONSTRAINT `atividades_LoginId_foreign` FOREIGN KEY (`LoginId`) REFERENCES `login`(`LoginId`) ON DELETE CASCADE ON UPDATE CASCADE
+) DEFAULT CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci')
+ 4 SYSTEMPATH\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `atividades` (
+	`LoginId` INT(11) UNSIGNED NOT NULL,
+	`AtividadeId` INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
+	`Nome` VARCHAR(128) NOT NULL,
+	`Descricao` VARCHAR(255) NOT NULL,
+	`DataInicio` DATETIME NULL,
+	`DataFim` DATETIME NULL,
+	`Status` ENUM(\'pendente\',\'concluido\',\'cancelado\') NOT NULL DEFAULT \'pendente\',
+	CONSTRAINT `pk_atividades` PRIMARY KEY(`AtividadeId`),
+	CONSTRAINT `atividades_LoginId_foreign` FOREIGN KEY (`LoginId`) REFERENCES `login`(`LoginId`) ON DELETE CASCADE ON UPDATE CASCADE
+) DEFAULT CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci')
+ 5 APPPATH\Database\Migrations\2026-05-09-002957_Atividades.php(54): CodeIgniter\Database\Forge->createTable('atividades')
+ 6 SYSTEMPATH\Database\MigrationRunner.php(1014): App\Database\Migrations\Atividades->up()
+ 7 SYSTEMPATH\Database\MigrationRunner.php(202): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+ 8 SYSTEMPATH\Commands\Database\Migrate.php(89): CodeIgniter\Database\MigrationRunner->latest(null)
+ 9 SYSTEMPATH\CLI\SignalTrait.php(245): CodeIgniter\Commands\Database\Migrate::CodeIgniter\Commands\Database\{closure}()
+10 SYSTEMPATH\Commands\Database\Migrate.php(88): CodeIgniter\Commands\Database\Migrate->withSignalsBlocked(Object(Closure))
+11 SYSTEMPATH\CLI\Commands.php(74): CodeIgniter\Commands\Database\Migrate->run([])
+12 SYSTEMPATH\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('migrate', [])
+13 SYSTEMPATH\Boot.php(442): CodeIgniter\CLI\Console->run()
+14 SYSTEMPATH\Boot.php(166): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+15 ROOTPATH\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+ERROR - 2026-05-10 19:03:56 --> Can't create table `sistema_web`.`atividades` (errno: 150 "Foreign key constraint is incorrectly formed")
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('CREATE TABLE `atividades` (
+	`LoginId` INT(11) UNSIGNED NOT NULL,
+	`AtividadeId` INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
+	`Nome` VARCHAR(128) NOT NULL,
+	`Descricao` VARCHAR(255) NOT NULL,
+	`DataInicio` DATETIME NULL,
+	`DataFim` DATETIME NULL,
+	`Status` ENUM(\'pendente\',\'concluido\',\'cancelado\') NOT NULL DEFAULT \'pendente\',
+	CONSTRAINT `pk_atividades` PRIMARY KEY(`AtividadeId`),
+	CONSTRAINT `atividades_LoginId_foreign` FOREIGN KEY (`LoginId`) REFERENCES `login`(`LoginId`) ON DELETE CASCADE ON UPDATE CASCADE
+) DEFAULT CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(910): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `atividades` (
+	`LoginId` INT(11) UNSIGNED NOT NULL,
+	`AtividadeId` INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
+	`Nome` VARCHAR(128) NOT NULL,
+	`Descricao` VARCHAR(255) NOT NULL,
+	`DataInicio` DATETIME NULL,
+	`DataFim` DATETIME NULL,
+	`Status` ENUM(\'pendente\',\'concluido\',\'cancelado\') NOT NULL DEFAULT \'pendente\',
+	CONSTRAINT `pk_atividades` PRIMARY KEY(`AtividadeId`),
+	CONSTRAINT `atividades_LoginId_foreign` FOREIGN KEY (`LoginId`) REFERENCES `login`(`LoginId`) ON DELETE CASCADE ON UPDATE CASCADE
+) DEFAULT CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci')
+ 3 SYSTEMPATH\Database\BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `atividades` (
+	`LoginId` INT(11) UNSIGNED NOT NULL,
+	`AtividadeId` INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
+	`Nome` VARCHAR(128) NOT NULL,
+	`Descricao` VARCHAR(255) NOT NULL,
+	`DataInicio` DATETIME NULL,
+	`DataFim` DATETIME NULL,
+	`Status` ENUM(\'pendente\',\'concluido\',\'cancelado\') NOT NULL DEFAULT \'pendente\',
+	CONSTRAINT `pk_atividades` PRIMARY KEY(`AtividadeId`),
+	CONSTRAINT `atividades_LoginId_foreign` FOREIGN KEY (`LoginId`) REFERENCES `login`(`LoginId`) ON DELETE CASCADE ON UPDATE CASCADE
+) DEFAULT CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci')
+ 4 SYSTEMPATH\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `atividades` (
+	`LoginId` INT(11) UNSIGNED NOT NULL,
+	`AtividadeId` INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
+	`Nome` VARCHAR(128) NOT NULL,
+	`Descricao` VARCHAR(255) NOT NULL,
+	`DataInicio` DATETIME NULL,
+	`DataFim` DATETIME NULL,
+	`Status` ENUM(\'pendente\',\'concluido\',\'cancelado\') NOT NULL DEFAULT \'pendente\',
+	CONSTRAINT `pk_atividades` PRIMARY KEY(`AtividadeId`),
+	CONSTRAINT `atividades_LoginId_foreign` FOREIGN KEY (`LoginId`) REFERENCES `login`(`LoginId`) ON DELETE CASCADE ON UPDATE CASCADE
+) DEFAULT CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci')
+ 5 APPPATH\Database\Migrations\2026-05-09-002957_Atividades.php(54): CodeIgniter\Database\Forge->createTable('atividades')
+ 6 SYSTEMPATH\Database\MigrationRunner.php(1014): App\Database\Migrations\Atividades->up()
+ 7 SYSTEMPATH\Database\MigrationRunner.php(202): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+ 8 SYSTEMPATH\Commands\Database\Migrate.php(89): CodeIgniter\Database\MigrationRunner->latest(null)
+ 9 SYSTEMPATH\CLI\SignalTrait.php(245): CodeIgniter\Commands\Database\Migrate::CodeIgniter\Commands\Database\{closure}()
+10 SYSTEMPATH\Commands\Database\Migrate.php(88): CodeIgniter\Commands\Database\Migrate->withSignalsBlocked(Object(Closure))
+11 SYSTEMPATH\CLI\Commands.php(74): CodeIgniter\Commands\Database\Migrate->run([])
+12 SYSTEMPATH\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('migrate', [])
+13 SYSTEMPATH\Boot.php(442): CodeIgniter\CLI\Console->run()
+14 SYSTEMPATH\Boot.php(166): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+15 ROOTPATH\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+ERROR - 2026-05-10 19:09:46 --> Can't create table `sistema_web`.`atividades` (errno: 150 "Foreign key constraint is incorrectly formed")
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('CREATE TABLE `atividades` (
+	`LoginId` INT(11) UNSIGNED NOT NULL,
+	`AtividadeId` INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
+	`Nome` VARCHAR(128) NOT NULL,
+	`Descricao` VARCHAR(255) NOT NULL,
+	`DataInicio` DATETIME NULL,
+	`DataFim` DATETIME NULL,
+	`Status` ENUM(\'pendente\',\'concluido\',\'cancelado\') NOT NULL DEFAULT \'pendente\',
+	CONSTRAINT `pk_atividades` PRIMARY KEY(`AtividadeId`),
+	CONSTRAINT `atividades_LoginId_foreign` FOREIGN KEY (`LoginId`) REFERENCES `login`(`LoginId`) ON DELETE CASCADE ON UPDATE CASCADE
+) DEFAULT CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(910): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `atividades` (
+	`LoginId` INT(11) UNSIGNED NOT NULL,
+	`AtividadeId` INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
+	`Nome` VARCHAR(128) NOT NULL,
+	`Descricao` VARCHAR(255) NOT NULL,
+	`DataInicio` DATETIME NULL,
+	`DataFim` DATETIME NULL,
+	`Status` ENUM(\'pendente\',\'concluido\',\'cancelado\') NOT NULL DEFAULT \'pendente\',
+	CONSTRAINT `pk_atividades` PRIMARY KEY(`AtividadeId`),
+	CONSTRAINT `atividades_LoginId_foreign` FOREIGN KEY (`LoginId`) REFERENCES `login`(`LoginId`) ON DELETE CASCADE ON UPDATE CASCADE
+) DEFAULT CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci')
+ 3 SYSTEMPATH\Database\BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `atividades` (
+	`LoginId` INT(11) UNSIGNED NOT NULL,
+	`AtividadeId` INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
+	`Nome` VARCHAR(128) NOT NULL,
+	`Descricao` VARCHAR(255) NOT NULL,
+	`DataInicio` DATETIME NULL,
+	`DataFim` DATETIME NULL,
+	`Status` ENUM(\'pendente\',\'concluido\',\'cancelado\') NOT NULL DEFAULT \'pendente\',
+	CONSTRAINT `pk_atividades` PRIMARY KEY(`AtividadeId`),
+	CONSTRAINT `atividades_LoginId_foreign` FOREIGN KEY (`LoginId`) REFERENCES `login`(`LoginId`) ON DELETE CASCADE ON UPDATE CASCADE
+) DEFAULT CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci')
+ 4 SYSTEMPATH\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `atividades` (
+	`LoginId` INT(11) UNSIGNED NOT NULL,
+	`AtividadeId` INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
+	`Nome` VARCHAR(128) NOT NULL,
+	`Descricao` VARCHAR(255) NOT NULL,
+	`DataInicio` DATETIME NULL,
+	`DataFim` DATETIME NULL,
+	`Status` ENUM(\'pendente\',\'concluido\',\'cancelado\') NOT NULL DEFAULT \'pendente\',
+	CONSTRAINT `pk_atividades` PRIMARY KEY(`AtividadeId`),
+	CONSTRAINT `atividades_LoginId_foreign` FOREIGN KEY (`LoginId`) REFERENCES `login`(`LoginId`) ON DELETE CASCADE ON UPDATE CASCADE
+) DEFAULT CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci')
+ 5 APPPATH\Database\Migrations\2026-05-09-002957_Atividades.php(54): CodeIgniter\Database\Forge->createTable('atividades')
+ 6 SYSTEMPATH\Database\MigrationRunner.php(1014): App\Database\Migrations\Atividades->up()
+ 7 SYSTEMPATH\Database\MigrationRunner.php(202): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+ 8 SYSTEMPATH\Commands\Database\Migrate.php(89): CodeIgniter\Database\MigrationRunner->latest(null)
+ 9 SYSTEMPATH\CLI\SignalTrait.php(245): CodeIgniter\Commands\Database\Migrate::CodeIgniter\Commands\Database\{closure}()
+10 SYSTEMPATH\Commands\Database\Migrate.php(88): CodeIgniter\Commands\Database\Migrate->withSignalsBlocked(Object(Closure))
+11 SYSTEMPATH\CLI\Commands.php(74): CodeIgniter\Commands\Database\Migrate->run([])
+12 SYSTEMPATH\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('migrate', [])
+13 SYSTEMPATH\Boot.php(442): CodeIgniter\CLI\Console->run()
+14 SYSTEMPATH\Boot.php(166): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+15 ROOTPATH\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+ERROR - 2026-05-10 19:09:58 --> Can't create table `sistema_web`.`atividades` (errno: 150 "Foreign key constraint is incorrectly formed")
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('CREATE TABLE `atividades` (
+	`LoginId` INT(11) UNSIGNED NOT NULL,
+	`AtividadeId` INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
+	`Nome` VARCHAR(128) NOT NULL,
+	`Descricao` VARCHAR(255) NOT NULL,
+	`DataInicio` DATETIME NULL,
+	`DataFim` DATETIME NULL,
+	`Status` ENUM(\'pendente\',\'concluido\',\'cancelado\') NOT NULL DEFAULT \'pendente\',
+	CONSTRAINT `pk_atividades` PRIMARY KEY(`AtividadeId`),
+	CONSTRAINT `atividades_LoginId_foreign` FOREIGN KEY (`LoginId`) REFERENCES `login`(`LoginId`) ON DELETE CASCADE ON UPDATE CASCADE
+) DEFAULT CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(910): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `atividades` (
+	`LoginId` INT(11) UNSIGNED NOT NULL,
+	`AtividadeId` INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
+	`Nome` VARCHAR(128) NOT NULL,
+	`Descricao` VARCHAR(255) NOT NULL,
+	`DataInicio` DATETIME NULL,
+	`DataFim` DATETIME NULL,
+	`Status` ENUM(\'pendente\',\'concluido\',\'cancelado\') NOT NULL DEFAULT \'pendente\',
+	CONSTRAINT `pk_atividades` PRIMARY KEY(`AtividadeId`),
+	CONSTRAINT `atividades_LoginId_foreign` FOREIGN KEY (`LoginId`) REFERENCES `login`(`LoginId`) ON DELETE CASCADE ON UPDATE CASCADE
+) DEFAULT CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci')
+ 3 SYSTEMPATH\Database\BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `atividades` (
+	`LoginId` INT(11) UNSIGNED NOT NULL,
+	`AtividadeId` INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
+	`Nome` VARCHAR(128) NOT NULL,
+	`Descricao` VARCHAR(255) NOT NULL,
+	`DataInicio` DATETIME NULL,
+	`DataFim` DATETIME NULL,
+	`Status` ENUM(\'pendente\',\'concluido\',\'cancelado\') NOT NULL DEFAULT \'pendente\',
+	CONSTRAINT `pk_atividades` PRIMARY KEY(`AtividadeId`),
+	CONSTRAINT `atividades_LoginId_foreign` FOREIGN KEY (`LoginId`) REFERENCES `login`(`LoginId`) ON DELETE CASCADE ON UPDATE CASCADE
+) DEFAULT CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci')
+ 4 SYSTEMPATH\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `atividades` (
+	`LoginId` INT(11) UNSIGNED NOT NULL,
+	`AtividadeId` INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
+	`Nome` VARCHAR(128) NOT NULL,
+	`Descricao` VARCHAR(255) NOT NULL,
+	`DataInicio` DATETIME NULL,
+	`DataFim` DATETIME NULL,
+	`Status` ENUM(\'pendente\',\'concluido\',\'cancelado\') NOT NULL DEFAULT \'pendente\',
+	CONSTRAINT `pk_atividades` PRIMARY KEY(`AtividadeId`),
+	CONSTRAINT `atividades_LoginId_foreign` FOREIGN KEY (`LoginId`) REFERENCES `login`(`LoginId`) ON DELETE CASCADE ON UPDATE CASCADE
+) DEFAULT CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci')
+ 5 APPPATH\Database\Migrations\2026-05-09-002957_Atividades.php(54): CodeIgniter\Database\Forge->createTable('atividades')
+ 6 SYSTEMPATH\Database\MigrationRunner.php(1014): App\Database\Migrations\Atividades->up()
+ 7 SYSTEMPATH\Database\MigrationRunner.php(202): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+ 8 SYSTEMPATH\Commands\Database\Migrate.php(89): CodeIgniter\Database\MigrationRunner->latest(null)
+ 9 SYSTEMPATH\CLI\SignalTrait.php(245): CodeIgniter\Commands\Database\Migrate::CodeIgniter\Commands\Database\{closure}()
+10 SYSTEMPATH\Commands\Database\Migrate.php(88): CodeIgniter\Commands\Database\Migrate->withSignalsBlocked(Object(Closure))
+11 SYSTEMPATH\CLI\Commands.php(74): CodeIgniter\Commands\Database\Migrate->run([...])
+12 SYSTEMPATH\CLI\BaseCommand.php(119): CodeIgniter\CLI\Commands->run('migrate', [...])
+13 SYSTEMPATH\Commands\Database\MigrateRefresh.php(91): CodeIgniter\CLI\BaseCommand->call('migrate', [...])
+14 SYSTEMPATH\CLI\SignalTrait.php(245): CodeIgniter\Commands\Database\MigrateRefresh->CodeIgniter\Commands\Database\{closure}()
+15 SYSTEMPATH\Commands\Database\MigrateRefresh.php(89): CodeIgniter\Commands\Database\MigrateRefresh->withSignalsBlocked(Object(Closure))
+16 SYSTEMPATH\CLI\Commands.php(74): CodeIgniter\Commands\Database\MigrateRefresh->run([...])
+17 SYSTEMPATH\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('migrate:refresh', [])
+18 SYSTEMPATH\Boot.php(442): CodeIgniter\CLI\Console->run()
+19 SYSTEMPATH\Boot.php(166): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+20 ROOTPATH\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+DEBUG - 2026-05-10 19:19:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-10 19:19:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-10 19:34:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-10 19:34:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-10 19:35:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-10 19:35:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-10 19:35:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-10 19:43:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-10 19:43:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-10 19:44:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-10 19:44:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-10 19:44:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-10 19:50:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-10 19:50:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-10 19:50:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-10 19:52:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-10 19:52:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-10 19:54:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-10 19:54:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-10 19:54:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-10 19:54:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-10 21:07:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-10 21:07:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-10 21:51:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-10 21:53:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-10 21:53:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-10 21:58:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-10 21:59:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-10 21:59:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-10 21:59:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-10 22:00:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-10 22:03:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-10 22:11:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-10 22:11:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-10 22:12:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-10 22:12:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-10 22:12:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-10 22:16:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-10 22:45:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-10 22:46:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-10 22:46:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-10 22:46:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-10 22:48:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-10 22:48:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-10 22:48:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-10 22:52:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-10 22:52:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-10 22:53:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-10 22:53:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-10 22:56:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-10 22:56:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-10 23:02:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-10 23:02:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-10 23:03:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-10 23:06:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-10 23:06:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-10 23:08:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-10 23:13:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-10 23:15:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-10 23:22:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-10 23:22:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-10 23:22:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-10 23:22:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-10 23:22:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-10 23:25:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-10 23:25:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-10 23:26:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-10 23:27:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-10 23:27:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-10 23:28:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-10 23:31:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-10 23:33:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
